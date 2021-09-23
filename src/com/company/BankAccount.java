@@ -37,8 +37,10 @@ public class BankAccount {
         balance +=  interestRate*balance;
         return balance;
     }
+
+    public void deposit(double amount) {
+        balance += amount;
+    }
 }
 
-    public void deposit(double amount){
-        balance += amount;
-}
+

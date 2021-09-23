@@ -21,7 +21,6 @@ public class Customer {
     public int getCustomerID() {
         return customerID;
     }
-
     public String getName() {
         return name;
     }
